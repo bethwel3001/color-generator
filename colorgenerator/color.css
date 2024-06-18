@@ -1,0 +1,33 @@
+
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+#box{
+  position: relative;
+  /*  button measurements
+  default:=> width=300px and height=400px*/
+  width: 150px;
+  height: 90px;
+  border-radius: 30px;
+  background-color: #000000;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(52, 152, 219, 0.5);
+  transition: background-color 0.1 ease-in-out;
+  transform: 0.2s ease-in-out;
+}
+#color-code{
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 32px;
+  color: #333;
+  margin-top: 5px;
+}
